@@ -1,0 +1,28 @@
+/* This is my attempt at linking the local jpg of my background image. I could not get it to work. 
+body { 
+    background: url("images/owl.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+  }*/
+
+/*Background image using a linked url*/  
+body { 
+    background: url("http://www.kinyu-z.net/data/wallpapers/60/913436.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-family: 'BioRhyme Expanded', serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
