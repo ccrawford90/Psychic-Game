@@ -1,4 +1,4 @@
-var computerChoices = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+var computerChoices = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
 var wins = 0;
 var losses = 0;
@@ -15,7 +15,7 @@ if ((userGuess === "1") || (userGuess === "2") || (userGuess === "3") || (userGu
     if ((userGuess === "1") && (computerGuess === "1")) {
       wins++;
     } else if ((userGuess === "1") && (computerGuess === "2","3","4","5","6","7","8","9")) {
-      lossess++;
+      guesses--;
     }
  
 
